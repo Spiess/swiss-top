@@ -1,5 +1,5 @@
 # swiss-top
-Scripts to process and visualize Swiss topology data.
+Scripts to process and visualize Swiss topography data.
 
 ## Data
 The required data can be downloaded for free from the [Swiss Federal Office of Topography]() (Specifically the
@@ -8,5 +8,5 @@ The required data can be downloaded for free from the [Swiss Federal Office of T
 
 ## Usage
 ```
-python main.py [topology_file] [border_file] [output_directory]
+python main.py [topography_file] [border_file] [output_directory]
 ```
