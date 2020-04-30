@@ -10,3 +10,7 @@ The required data can be downloaded for free from the [Swiss Federal Office of T
 ```
 python main.py [topography_file] [border_file] [output_directory]
 ```
+
+## Example
+![Topography Plot](example.png)
+Rohdaten Quelle: Bundesamt für Landestopografie
