@@ -60,8 +60,8 @@ def create_mesh(topography, spacing):
                 faces.append(np.array(
                     [
                         [x * spacing + xmin, (y + 1) * spacing + ymin, grid[x, y + 1]],
-                        [(x + 1) * spacing + xmin, y * spacing + ymin, grid[x + 1, y]],
-                        [x * spacing + xmin, y * spacing + ymin, grid[x, y]]
+                        [x * spacing + xmin, y * spacing + ymin, grid[x, y]],
+                        [(x + 1) * spacing + xmin, y * spacing + ymin, grid[x + 1, y]]
                     ]
                 ))
             if not (np.isnan(grid[x + 1, y + 1]) or np.isnan(grid[x + 1, y]) or np.isnan(grid[x, y + 1])):
